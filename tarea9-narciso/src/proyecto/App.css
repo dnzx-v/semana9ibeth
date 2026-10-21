@@ -1,0 +1,96 @@
+ :root {
+  font-family: Arial, sans-serif;
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f5f7;
+  color: #2c3e50;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header-institucional {
+  background-color: #7b1113; 
+  color: white;
+  padding: 1.2rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  border-bottom: 4px solid #d4af37; 
+}
+
+.logo-container .instituto-tag {
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #e0e0e0;
+  display: block;
+}
+
+.logo-container h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  letter-spacing: 0.5px;
+}
+
+.nav-menu button {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  color: white;
+  padding: 0.5rem 1rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-menu button:hover, 
+.nav-menu button.activo {
+  background-color: white;
+  color: #7b1113;
+  border-color: white;
+}
+
+.main-content {
+  flex: 1;
+  padding: 2.5rem 1rem;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.card-seccion h2 {
+  margin-top: 0;
+  color: #7b1113;
+}
+
+.features-list {
+  line-height: 1.8;
+}
+
+.idea-item {
+  background: #fdfaf6;
+  padding: 0.8rem 1rem;
+  margin-bottom: 0.7rem;
+  border-radius: 6px;
+  border-left: 3px solid #d4af37;
+}
+
+.footer-institucional {
+  background-color: #1a1a1a;
+  color: #a0a0a0;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  border-top: 1px solid #333;
+}
